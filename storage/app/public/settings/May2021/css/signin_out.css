@@ -1,0 +1,5 @@
+@media (max-width:640px) {
+    #header_box {
+        padding-left: 0;
+    }
+}
