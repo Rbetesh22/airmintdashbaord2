@@ -9,7 +9,7 @@
                       
               </a>
             </a>
-            <div class="grid w-full grid-cols-2 pt-2 mt-20 sm:grid-cols-4 gap-y-16 lg:gap-x-8 md:w-5/6 md:mt-0 md:pr-6">
+            <div class="grid w-full grid-cols-2 pt-2 mt-0 lg:mt-20 xl:mt-20 sm:grid-cols-4 gap-y-16 lg:gap-x-8 md:w-5/6 md:mt-0 sm:mt-0 md:pr-6">
                 <div class="md:justify-self-end">
                     <h3 class="font-semibold text-black">Product</h3>
                     <ul class="mt-6 space-y-4 text-sm">
@@ -143,7 +143,7 @@
 
         <div class="flex flex-col items-center justify-between py-10 border-t border-solid lg:flex-row border-gray">
             <ul class="flex flex-wrap space-x-5 text-xs">
-                <li class="mb-6 text-center flex-full lg:flex-none lg:mb-0">&copy; {{ date('Y') }} {{ setting('site.title', 'Laravel Wave') }}, Inc. All rights reserved.</li>
+                <li class="mb-6 text-center flex-full lg:flex-none lg:mb-0">&copy; {{ date('Y') }} {{ setting('site.title', 'AirMint') }}, Inc. All rights reserved.</li>
                 <li class="lg:ml-6">
                     <a href="#_" class="relative inline-block text-black group">
                         <span class="absolute bottom-0 w-full transition duration-150 ease-out transform -translate-y-1 border-b border-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0"></span>
@@ -165,14 +165,15 @@
             </ul>
 
             <ul class="flex items-center mt-10 space-x-5 lg:mt-0">
-                <li>
+               <li>
                     <a href="#" class="text-gray-600 hover:text-gray-900">
-                        <span class="sr-only">Facebook</span>
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                        <span class="sr-only">TikTok</span>
+                        <svg class="w-6 h-auto" fill="currentColor" viewBox="0 0 40 40" aria-hidden="true">
+                        <path d="M14 15.599v-1.486A13.1 13.1 0 0 0 12.337 14C5.535 14 0 19.18 0 25.547 0 29.452 2.086 32.91 5.267 35c-2.13-2.132-3.315-4.942-3.313-7.861 0-6.276 5.377-11.394 12.046-11.54" fill="#00f2ea"/><path d="M14.327 32c2.876 0 5.221-2.273 5.328-5.107l.01-25.292h4.65A8.72 8.72 0 0 1 24.164 0h-6.35l-.011 25.293c-.106 2.832-2.453 5.105-5.328 5.105a5.329 5.329 0 0 1-2.476-.61A5.34 5.34 0 0 0 14.327 32m18.672-21.814V8.78a8.818 8.818 0 0 1-4.81-1.421A8.85 8.85 0 0 0 33 10.186" fill="#00f2ea"/><path d="M28 7.718A8.63 8.63 0 0 1 25.832 2h-1.697A8.735 8.735 0 0 0 28 7.718M12.325 20.065c-2.94.004-5.322 2.361-5.325 5.27A5.267 5.267 0 0 0 9.854 30a5.2 5.2 0 0 1-1.008-3.073c.003-2.91 2.385-5.268 5.325-5.271.55 0 1.075.09 1.572.244v-6.4a11.72 11.72 0 0 0-1.572-.114c-.092 0-.183.006-.274.007v4.916a5.286 5.286 0 0 0-1.572-.244" fill="#ff004f"/><path d="M32.153 11v4.884a15.15 15.15 0 0 1-8.813-2.811V25.84c0 6.377-5.23 11.565-11.658 11.565-2.485 0-4.789-.778-6.682-2.097A11.67 11.67 0 0 0 13.528 39c6.429 0 11.659-5.188 11.659-11.564V14.668A15.15 15.15 0 0 0 34 17.478v-6.283A8.87 8.87 0 0 1 32.153 11" fill="#ff004f"/>
                         </svg>
                     </a>
                 </li>
+                 <!-- 
                 <li>
                     <a href="#" class="text-gray-600 hover:text-gray-900">
                         <span class="sr-only">Instagram</span>
@@ -188,7 +189,7 @@
                             <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
                         </svg>
                     </a>
-                </li>
+                </li> -->
                 <!-- <li>
                     <a href="#" class="text-gray-600 hover:text-gray-900">
                         <span class="sr-only">GitHub</span>
